@@ -1,0 +1,387 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* border:1px solid black; */
+}
+body{
+  background-color: #eff2f6;
+}
+
+/* css code for the product starts here */
+
+.productClass{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  align-content: space-between;
+  height: auto;
+  padding:20px 0px;
+  text-align: left;
+  margin:auto;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.theProduct{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+
+.productName{
+display:flex;
+justify-content: center;
+align-items: center;
+width:100%;
+min-height: 250px;
+}
+
+.button{
+border:1px solid orange;
+display:block;
+border-radius: 5px;
+padding:15px 15px;
+margin-top: 5px;
+width:100%;
+font-size: 14px;
+font-weight: bold;
+cursor:pointer;
+background-color: orange;
+color:white;
+transition: 250ms ease-in-out;
+}
+.button:hover{
+color:orange;
+background-color: transparent;
+}
+
+/* css code for the product ends here */
+
+/* css cod for the header starts here */
+
+.headerMain{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  padding: 30px 4vw;
+
+}
+
+.logo{
+  display:flex;
+  justify-content: left;
+  cursor:pointer;
+}
+
+.mobMenu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:50%
+  
+}
+.mobMenu img{
+  display:flex;
+  align-items: center;
+}
+
+.menu{
+  background-color: orange;
+  padding:10px ;
+}
+.deskMenu{
+  width:85%;
+  display:none;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+a{
+  color:black
+}
+.desUlMenu{
+  display:flex;
+  font-size: 13px;
+  font-weight: bold;
+  justify-content: space-between;
+  width:30%;
+  /* background-color: red; */
+
+
+}
+
+.divForSearch{
+  display:flex;
+  justify-content: space-between;
+  width:65%
+}
+
+.forInput{
+  display:flex;
+  padding-left: 10px;
+  width:45%;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+input{
+  width:90%;
+  padding:10px;
+  background-color: transparent;
+  border:none;
+  outline:none;
+}
+
+.menuDeskImg{
+  display:flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.menuDeskImg img{
+  margin-right: 5px;
+}
+a{
+  display:flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: red; */
+}
+
+.mainProductList{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loadMore{
+  min-width:20%;
+  margin:auto;
+  margin-bottom: 3%;
+  padding:10px;
+  font-size: 1.25em;
+  font-weight: bold;
+  border:3px solid orange;
+  background-color: transparent;
+  
+}
+
+/* css cod for the header endstarts here */
+/* css cod for the main starts here */
+.ourProduct{
+  width:90%;
+  margin:auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.ourProduct p{
+  min-width: 50%;
+  /* max-width: 70%; */
+}
+.pRod{
+  display:flex;
+}
+.ourProduct a{
+  color:orange;
+  display:inline-block
+}
+.orderInfo{
+  width:100%;
+  line-height: 2;
+}
+.orderSum{
+  width:90%;
+  margin-left:5%;
+  line-height: 2;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.orderSum button{
+  display:block;
+  width: 100%;
+  margin-top: 2%;
+  padding: 10px 10px;
+  background-color: orange;
+  color:white;
+  font-weight: bold;
+  border:none;
+  outline:none;
+  margin-bottom: 2%;
+}
+ .subShip{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+/* code for cart starts here */
+
+.classsMain{
+  width:90%;
+  margin:auto;
+  display:flex;
+  gap:30px;
+  flex-wrap: wrap;
+}
+
+.cartItem{
+  display:flex;
+  align-items: center;
+  margin-bottom: 1%;
+;
+}
+.cartItem .cartItemImg{
+  margin-right: 10px;
+  display:flex;
+}
+
+/* code for cart ends here */
+.checkOut{
+  margin:auto;
+  width:90%;
+  margin-bottom: 2%;
+}
+.shipBtn{
+  color:white;
+  background-color: orange;
+  border:none;
+  padding: 10px ;
+  margin:auto;
+}
+.forForm{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  width:90%;
+  margin:auto
+}
+.forForm div{
+  display:flex;
+  width: 100%;
+}
+.forForm input{
+  border:1px solid black;
+  display:block
+}
+/* css code for the main ends here */
+
+input{
+  display:flex;
+  width:100%
+}
+
+.checklistInput{
+  display:flex;
+  justify-content: flex-start;
+
+}
+
+/* css code for the footer starts here */
+footer{
+  display:flex;
+  border-top: 1.5px solid black;
+  padding-top: 2%;
+  flex-direction: column;
+  width:90%;
+  margin: auto;
+  display:flex;
+  ;
+}
+
+.theFoot{
+  margin-bottom: 3%;
+  ;
+}
+
+.theFoot ul li{
+  color:hsla(0, 0%, 30%, 0.753)
+}
+
+.inputCarry{
+  border:1px solid black;
+  margin: 10px 0px ;
+  display:flex;
+  justify-content: space-between;
+}
+
+.inputCarry:focus{
+  border:1px solid yellow
+}
+.inputCarry p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+}
+.inputCarry a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 15%;
+  font-weight: bold;
+}
+.inputCarry a:hover{
+  color:orange;
+  font-weight: bold;
+}
+
+.footerInput{
+  width:80%;
+  border:none;
+  outline:none
+}
+
+
+
+/* css cod for the footer ends here */
+
+/* media query starts here */
+
+/* media query for header starts here */
+
+@media screen and (min-width:1000px){
+  .deskMenu{
+    
+    display:flex;
+  }
+  .mobMenu{
+    display:none
+  }
+  .orderInfo{
+    width:20%
+  }
+  .orderSum{
+    width:30%
+  }
+
+}
+
+
+
+/* media query for header ends here */
+
+@media screen and (min-width:600px){
+  footer{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:90%;
+    margin: auto;
+    gap:50px
+    ;
+  }
+}
+
+/* media query ends here */
